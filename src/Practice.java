@@ -1,18 +1,20 @@
 public class Practice {
-    public static void main(String[]args){
 
-boolean value = true;
+    public static void main(String[] args) {
 
-        int number=0;
-while(value){
+        boolean value = false;
+        int boom =8;
+        while(value){
 
-    System.out.println("I am looping this code "+number+" times");
-    if(number>10){
-        value=false;
-    }
-    else{
-        number++;
-    }
+            System.out.println("I am quitting "+boom+" times");
+            if(boom>4){
+                value=false;
+            }
+            else{
+                boom++;
+            }
+
+        }
 
 
     }
